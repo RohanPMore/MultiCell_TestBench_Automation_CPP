@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiCell-TestBench-Automation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MultiCell-TestBench-Automation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultiCell-TestBench-Automation-Debug-2fb29f93769d8244130a.json",
+					"name" : "MultiCell-TestBench-Automation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MultiCell-TestBench-Automation_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultiCell-TestBench-Automation_autogen-Debug-4ce87cd59beafcdc2134.json",
+					"name" : "MultiCell-TestBench-Automation_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MultiCell-TestBench-Automation_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultiCell-TestBench-Automation_autogen_timestamp_deps-Debug-8fcd5f50db00bc584b85.json",
+					"name" : "MultiCell-TestBench-Automation_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32",
+		"source" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

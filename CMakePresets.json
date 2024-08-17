@@ -1,0 +1,18 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "GCC 11.2.0 x86_64-w64-mingw32",
+            "displayName": "GCC 11.2.0 x86_64-w64-mingw32",
+            "description": "Using compilers: C = R:\\QT\\Tools\\mingw1120_64\\bin\\gcc.exe, CXX = R:\\QT\\Tools\\mingw1120_64\\bin\\g++.exe",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "R:/QT/Tools/mingw1120_64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "R:/QT/Tools/mingw1120_64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}
