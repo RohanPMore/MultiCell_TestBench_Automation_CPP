@@ -294,6 +294,7 @@ MultiCell-TestBench-Automation_autogen/timestamp: \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qglobalstatic.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qhash.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qhashfunctions.h \
+	R:/QT/6.7.2/mingw_64/include/QtCore/qiodevice.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qiodevicebase.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qiterable.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qiterator.h \
@@ -361,6 +362,7 @@ MultiCell-TestBench-Automation_autogen/timestamp: \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qtversionchecks.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qtypeinfo.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qtypes.h \
+	R:/QT/6.7.2/mingw_64/include/QtCore/qurl.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qutf8stringview.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qvariant.h \
 	R:/QT/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -380,27 +382,36 @@ MultiCell-TestBench-Automation_autogen/timestamp: \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qpalette.h \
+	R:/QT/6.7.2/mingw_64/include/QtGui/qpicture.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qpixmap.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qpolygon.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qregion.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qrgb.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qrgba64.h \
+	R:/QT/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qtransform.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
 	R:/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+	R:/QT/6.7.2/mingw_64/include/QtWidgets/QLCDNumber \
+	R:/QT/6.7.2/mingw_64/include/QtWidgets/QLabel \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/QMenu \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/QMenuBar \
+	R:/QT/6.7.2/mingw_64/include/QtWidgets/QProgressBar \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/QPushButton \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/QToolBar \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
+	R:/QT/6.7.2/mingw_64/include/QtWidgets/qframe.h \
+	R:/QT/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
+	R:/QT/6.7.2/mingw_64/include/QtWidgets/qlcdnumber.h \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/qmenu.h \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/qmenubar.h \
+	R:/QT/6.7.2/mingw_64/include/QtWidgets/qprogressbar.h \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 	R:/QT/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \

@@ -252,6 +252,7 @@ N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automat
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qglobalstatic.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qhash.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qhashfunctions.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qiodevice.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qiodevicebase.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qiterable.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qiterator.h
@@ -319,6 +320,7 @@ N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automat
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qtversionchecks.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qtypeinfo.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qtypes.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qurl.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qutf8stringview.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qvariant.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h
@@ -338,27 +340,36 @@ N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automat
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qkeysequence.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qpaintdevice.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qpalette.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qpicture.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qpixelformat.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qpixmap.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qpolygon.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qregion.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qrgb.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qrgba64.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qtextdocument.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qtgui-config.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qtguiexports.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qtguiglobal.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qtransform.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QLCDNumber
+ mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QLabel
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QMainWindow
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QMenu
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QMenuBar
+ mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QProgressBar
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QPushButton
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/QToolBar
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qframe.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qlabel.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qlcdnumber.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qmenu.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qmenubar.h
+ mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qprogressbar.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h
@@ -367,5 +378,5 @@ N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automat
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:R:/QT/6.7.2/mingw_64/include/QtWidgets/qwidget.h
-N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/MainWindow.cpp
 N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/main.cpp
+N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/MainWindow.cpp
