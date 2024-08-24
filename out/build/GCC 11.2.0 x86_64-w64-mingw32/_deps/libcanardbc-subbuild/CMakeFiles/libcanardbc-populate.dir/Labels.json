@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/CMakeFiles/libcanardbc-populate"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/CMakeFiles/libcanardbc-populate.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/CMakeFiles/libcanardbc-populate-complete.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-build.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-configure.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-download.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-install.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-mkdir.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-patch.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-test.rule"
+		},
+		{
+			"file" : "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps/libcanardbc-subbuild/libcanardbc-populate-prefix/src/libcanardbc-populate-stamp/libcanardbc-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libcanardbc-populate"
+		],
+		"name" : "libcanardbc-populate"
+	}
+}

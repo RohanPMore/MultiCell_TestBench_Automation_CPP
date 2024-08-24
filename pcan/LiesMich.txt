@@ -1,0 +1,156 @@
+===============================================================================
+LiesMich.txt
+
+PCAN-Basic V4.9.0.942
+Copyright (c) 2024 PEAK-System Technik GmbH Darmstadt
+Alle Rechte vorbehalten.
+===============================================================================
+
+Maximieren Sie das Editor-Fenster, um diese Datei leichter lesen zu können.
+
+
+Inhalt:
+-------
+  * Einleitung
+  * Systemvoraussetzungen
+  * Bedingungen zur Verwendung dieser Dateien
+  * Inhalt des Verzeichnisses
+  * Inbetriebnahme von PCAN-Hardware
+  * PEAK-System Technik GmbH kontaktieren
+
+
+Einleitung
+----------
+Das PCAN-System der Firma PEAK-System Technik GmbH besteht aus einer Sammlung
+von Windows Gerätetreibern. Diese sorgen für die Echtzeit-Anbindung von
+Windows-Applikationen an alle CAN-Busse, die mittels PCAN-Hardware an den
+PC angeschlossen sind.
+
+PCAN-Basic ist eine einfache Programmier-Schnittstelle zum PCAN-System. Über
+eine Interface-DLL wird die Verbindung eigener Applikationen an die
+Gerätetreiber und die PCAN-Hardware ermöglicht, um eine CAN-Kommunikation zu
+betreiben.
+
+Die mitgelieferten Treiber, die PCAN-Basic API und die CAN-Bus Monitor
+Software "PCAN-View" sind die im Funktionsumfang reduzierten Versionen
+der käuflich zu erwerbenden Software-Pakete PCAN-Developer und PCAN-Explorer.
+
+
+Bedingungen zur Verwendung dieser Dateien
+-----------------------------------------
+Bitte lesen Sie die Endbenutzer-Lizenzvereinbarung der Firma PEAK-System Technik GmbH unter:
+www.peak-system.com/quick/eula
+
+Die PEAK-System Technik GmbH räumt dem Kunden das Recht ein, die in diesem
+Softwarepaket enthaltenen Dateien zu verwenden, solange dies in Verbindung mit
+Hardware original von PEAK-System oder mit OEM-Hardware von PEAK-System
+geschieht. Es ist ausdrücklich NICHT erlaubt, diese Dateien (auch auszugsweise)
+mit Fremdhardware zu verwenden.
+
+Wenn Sie nicht sicher sind, ob Sie mit der verwendeten Hardware auch eine
+entsprechende Lizenz erworben haben, setzen Sie sich bitte mit unserem
+technischen Support in Verbindung (support@peak-system.com).
+
+
+Systemvoraussetzungen
+---------------------
+- Betriebssysteme:  Windows 11 (x64/ARM64), Windows 10 (x64)  
+
+
+Inhalt des Verzeichnisses
+-------------------------
+LiesMich.txt
+    Diese Textdatei.
+
+ReadMe.txt
+    Diese Textdatei in englischer Übersetzung.
+
+PCANBasic_enu.chm
+    Die PCAN-Basic Dokumentation in englischer Sprache.
+
+PCANBasic_deu.chm
+    Die PCAN-Basic Dokumentation in deutscher Sprache.
+
+PCAN-Parameter_Documentation.pdf
+    Zusätzliche Dokumentation zu PCAN-Basic Get/Set-Parameter in englischer Sprache.
+
+\Include
+    - Enthält PCAN-Basic Header-Dateien für verschiedene Programmiersprachen und
+      Entwicklungsumgebungen.
+
+\x86
+    - Enthält die 32-Bit (x86) Interface-DLL sowie eine x86-Demoanwendung (exe).
+
+    \BB_LIB
+        x86 LIB-Datei für C++ Builder.
+
+    \VC_LIB
+        x86 LIB-Datei für Visual C/C++.
+
+\x64
+    - Enthält die 64-Bit (x64) Interface-DLL sowie eine x64-Demoanwendung (exe).
+
+    \VC_LIB
+        x64 LIB-Datei für Visual C/C++.
+        
+\ARM64
+    -  Enthält die ARM64 Interface-DLL sowie eine ARM64-Demoanwendung (exe).     
+
+    \VC_LIB
+        ARM64 LIB-Datei für Visual C/C++.    
+
+\Samples
+    - Enthält Beispieldateien, welche die Verwendung der PCAN-Basic API in
+      verschiedenen Programmiersprachen und Entwicklungsumgebungen demonstrieren.
+    
+\NuGet
+    - Enthält das PCAN-Basic.NET-Assembly-NuGet-Paket.
+
+
+Inbetriebnahme von PCAN-Hardware
+--------------------------------
+Informationen zur Installation von PCAN-Hardware befindet sich im 
+entsprechenden Hardware-Benutzerhandbuch. Diese Handbücher sind online 
+zugänlich unter: www.peak-system.com/quick/Dokumentation.
+
+Auf dem Zielsystem muss die Bibliothek PCANBasic.dll installiert sein, 
+um Anwendungen ausführen zu können, die diese API verwenden. Es gibt zwei 
+Möglichkeiten, diese Bibliothek auf einem System zu installieren:
+  1. Über "Gerätetreiber-Setup" (empfohlen): Dieselbe Anwendung, die 
+     für die Gerätetreiberinstallation verwendet wird, kann auch diese 
+     Bibliothek installieren. Es kann unter folgendem Link heruntergeladen 
+     werden: www.peak-system.com/quick/DrvSetup.
+  2. Bibliothek manuell kopieren: Kopieren Sie die in diesem Paket 
+     enthaltenen Bibliotheksdateien wie folgt auf das Zielsystem:
+
+     Bei x64 Windows-Betriebssystemen:
+     \x86\PCANBasic.dll --> Windows\SysWOW64
+     \x64\PCANBasic.dll --> Windows\System32
+     
+     Bei ARM64 Windows-Betriebssystemen:
+     \x86\PCANBasic.dll   --> Windows\SysWOW64
+     \x64\PCANBasic.dll   --> Anwendungsordner (x64 Anwendungen)
+     \ARM64\PCANBasic.dll --> Anwendungsordner (ARM64 Anwendungen)
+     
+
+NuGet-Paket Installation
+--------------------------
+Die Durchführung einer Online- oder Offline-Installation des NuGet-Pakets für 
+Microsoft Visual Studio or Visual Studio Code wird in der Dokumentation der 
+PCAN-Basic.NET-Assembly unter https://docs.peak-system.com/API/PCAN-Basic.Net/ 
+im Kapitel „ Einführung\How-To's und Q&A's" erklärt.
+
+
+PEAK-System Technik GmbH kontaktieren
+-------------------------------------
+Haben Sie Fragen bezüglich der Inbetriebnahme von PCAN-Hardware, oder benötigen
+Sie Informationen über weitere PEAK CAN-Produkte, wenden Sie sich bitte an:
+
+PEAK-System Technik GmbH
+Darmstadt, Deutschland
+
+Tel. +49 6151 / 8173-20
+FAX  +49 6151 / 8173-29
+
+support@peak-system.com
+http://www.peak-system.com

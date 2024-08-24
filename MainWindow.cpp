@@ -1,4 +1,7 @@
 #include "MainWindow.h"
+#include "can_interface.hpp"
+#include <QCoreApplication>
+#include <QDir>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>
@@ -28,6 +31,12 @@ void MainWindow::setupMenuBar() {
     QMenu *editMenu = menuBar()->addMenu("Edit");
     QAction *preferencesAction = new QAction("Preferences", this);
     editMenu->addAction(preferencesAction);
+
+    QMenu *viewMenu = menuBar()->addMenu("View");
+    QAction *viewDBCMessageAction = new QAction("View DBC Messages", this);
+    viewMenu->addAction(viewDBCMessageAction);
+    //connect(viewDBCMessageAction, &QAction::triggered, this, &MainWindow::onViewDBCMessage);
+
 
     // Test Menu with Submenus for Test Benches and Options
     QMenu *testMenu = menuBar()->addMenu("Test");
@@ -99,20 +108,6 @@ void MainWindow::onStopClicked() {
     // Implement what happens when Stop is clicked
     QMessageBox::information(this, "Stop", "Stop action triggered.");
 }
-
-//void MainWindow::setupToolBar() {
-    // Tool Bar Setup
-    //QToolBar *toolBar = addToolBar("Main Toolbar");
-    //QAction *runAction = new QAction("Run", this);
-    //QAction *stopAction = new QAction("Stop", this);
-    //QAction *startAction = new QAction("Start Test", this); // Added Start Test button
-
-    //toolBar->addAction(startAction);
-    //toolBar->addAction(runAction);
-    //toolBar->addAction(stopAction);
-
-    //connect(startAction, &QAction::triggered, this, &MainWindow::onStartTestClicked);
-//}
 
 void MainWindow::setupCentralWidget() {
     // Central Widget and Layout Setup

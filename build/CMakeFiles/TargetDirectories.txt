@@ -1,5 +1,0 @@
-N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/build/CMakeFiles/MultiCell-TestBench-Automation.dir
-N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/build/CMakeFiles/edit_cache.dir
-N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/build/CMakeFiles/rebuild_cache.dir
-N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/build/CMakeFiles/MultiCell-TestBench-Automation_autogen_timestamp_deps.dir
-N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/build/CMakeFiles/MultiCell-TestBench-Automation_autogen.dir

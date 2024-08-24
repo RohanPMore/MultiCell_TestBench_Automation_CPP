@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "EventDrivenRead", "08_EventDrivenRead.pyproj", "{4D6510C0-F6F4-43A8-A21A-4A85BE1CC74F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D6510C0-F6F4-43A8-A21A-4A85BE1CC74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6510C0-F6F4-43A8-A21A-4A85BE1CC74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {459E0788-054B-4C0F-972B-EAAA6BAA097E}
+	EndGlobalSection
+EndGlobal

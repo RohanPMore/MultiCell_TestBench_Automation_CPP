@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "01_LookUpChannel", "01_LookUpChannel\01_LookUpChannel.pyproj", "{C896BDC5-8C9A-41F9-AD4C-CA7FEB04C051}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "02_GetSetParameter", "02_GetSetParameter\02_GetSetParameter.pyproj", "{E6576FD2-361A-478C-A181-8FDD14D7EB07}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "03_ManualRead", "03_ManualRead\03_ManualRead.pyproj", "{959B66C6-D3BC-4932-A0F6-CEA5FE14F5FA}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_ManualWrite", "04_ManualWrite\04_ManualWrite.pyproj", "{5D2D4A66-2E9A-4F5F-9266-96A1E59F0612}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "05_TimerRead", "05_TimerRead\05_TimerRead.pyproj", "{776B1B7E-D181-4295-BC93-7E6B228E7439}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "06_TimerWrite", "06_TimerWrite\06_TimerWrite.pyproj", "{E9118E5A-33C2-4C1D-8035-45C877E882B0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "07_ThreadRead", "07_ThreadRead\07_ThreadRead.pyproj", "{D52E934C-455D-4470-9B55-CEB9AFC152DD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "08_EventDrivenRead", "08_EventDrivenRead\08_EventDrivenRead.pyproj", "{4D6510C0-F6F4-43A8-A21A-4A85BE1CC74F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "09_TraceFiles", "09_TraceFiles\09_TraceFiles.pyproj", "{4432C9A3-C4EA-4A0F-8676-B5EF31032340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C896BDC5-8C9A-41F9-AD4C-CA7FEB04C051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C896BDC5-8C9A-41F9-AD4C-CA7FEB04C051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6576FD2-361A-478C-A181-8FDD14D7EB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6576FD2-361A-478C-A181-8FDD14D7EB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959B66C6-D3BC-4932-A0F6-CEA5FE14F5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959B66C6-D3BC-4932-A0F6-CEA5FE14F5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2D4A66-2E9A-4F5F-9266-96A1E59F0612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2D4A66-2E9A-4F5F-9266-96A1E59F0612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776B1B7E-D181-4295-BC93-7E6B228E7439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776B1B7E-D181-4295-BC93-7E6B228E7439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9118E5A-33C2-4C1D-8035-45C877E882B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9118E5A-33C2-4C1D-8035-45C877E882B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52E934C-455D-4470-9B55-CEB9AFC152DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52E934C-455D-4470-9B55-CEB9AFC152DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6510C0-F6F4-43A8-A21A-4A85BE1CC74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6510C0-F6F4-43A8-A21A-4A85BE1CC74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4432C9A3-C4EA-4A0F-8676-B5EF31032340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4432C9A3-C4EA-4A0F-8676-B5EF31032340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DC60B43-B16D-416E-917A-9ECB1E7A95E2}
+	EndGlobalSection
+EndGlobal

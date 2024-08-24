@@ -287,6 +287,29 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for libcanardbc
+FETCHCONTENT_SOURCE_DIR_LIBCANARDBC:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of libcanardbc
+FETCHCONTENT_UPDATES_DISCONNECTED_LIBCANARDBC:BOOL=OFF
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
 //Value Computed by CMake
 MultiCell-TestBench-Automation_BINARY_DIR:STATIC=N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32
 
@@ -295,6 +318,9 @@ MultiCell-TestBench-Automation_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 MultiCell-TestBench-Automation_SOURCE_DIR:STATIC=N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation
+
+//Path to a library.
+PCANBasic_LIBRARIES:FILEPATH=N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/x64/VC_LIB/PCANBasic.lib
 
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
@@ -546,6 +572,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding WrapAtomic
 FIND_PACKAGE_MESSAGE_DETAILS_WrapAtomic:INTERNAL=[1][v()]
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Test HAVE_STDATOMIC
 HAVE_STDATOMIC:INTERNAL=1
 //Qt feature: abstractbutton (from target Qt6::Widgets)
