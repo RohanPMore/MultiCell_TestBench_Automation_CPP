@@ -1,5 +1,7 @@
 #include "MainWindow.h"
 #include "can_interface.hpp"
+#include "TestBenchOperations.hpp"
+#include "TestType.hpp"
 #include <QCoreApplication>
 #include <QDir>
 #include <QVBoxLayout>
@@ -36,7 +38,6 @@ void MainWindow::setupMenuBar() {
     QAction *viewDBCMessageAction = new QAction("View DBC Messages", this);
     viewMenu->addAction(viewDBCMessageAction);
     //connect(viewDBCMessageAction, &QAction::triggered, this, &MainWindow::onViewDBCMessage);
-
 
     // Test Menu with Submenus for Test Benches and Options
     QMenu *testMenu = menuBar()->addMenu("Test");
@@ -101,12 +102,24 @@ void MainWindow::setupMenuBar() {
 
 void MainWindow::onRunClicked() {
     // Implement what happens when Run is clicked
-    QMessageBox::information(this, "Run", "Run action triggered.");
+    //QMessageBox::information(this, "Run Test", "Test is running.");
+    auto msgBox = new QMessageBox();
+    msgBox->setMinimumSize(300, 300);
+    msgBox->setStyleSheet("QMessageBox{ background-color: black;}"
+                      "QPushButton{ background-color: white; color: black;}");
+    msgBox->setText("Run action triggered.");
+    msgBox->exec();
 }
 
 void MainWindow::onStopClicked() {
     // Implement what happens when Stop is clicked
-    QMessageBox::information(this, "Stop", "Stop action triggered.");
+    // QMessageBox::information(this, "Stop Test", "Test has been stopped.");
+    auto msgBox = new QMessageBox();
+    msgBox->setMinimumSize(300, 300);
+    msgBox->setStyleSheet("QMessageBox{ background-color: black;}"
+                      "QPushButton{ background-color: white; color: black;}");
+    msgBox->setText("Stop action triggered.");
+    msgBox->exec();
 }
 
 void MainWindow::setupCentralWidget() {
@@ -178,8 +191,15 @@ void MainWindow::setupRightPanel() {
 
 void MainWindow::onStartTestClicked() {
     // Slot implementation for the Start button click
-    QMessageBox::information(this, "Test Started", "The test has been started.");
+    // QMessageBox::information(this, "Start Test", "Test has been started.");
+    auto msgBox = new QMessageBox();
+    msgBox->setMinimumSize(300, 300);
+    msgBox->setStyleSheet("QMessageBox{ background-color: black;}"
+                      "QPushButton{ background-color: white; color: black;}");
+    msgBox->setText("The test has been started.");
+    msgBox->exec();
 }
+
 
 // Slot for when a specific test bench option is selected
 void MainWindow::onTestBenchOptionSelected(int testBenchNumber, const QString &option) {
@@ -187,11 +207,30 @@ void MainWindow::onTestBenchOptionSelected(int testBenchNumber, const QString &o
     bool ok;
     int cellNumber = QInputDialog::getInt(this, QString("Test Bench %1 - %2").arg(testBenchNumber).arg(option),
                                           "Enter Cell Number:", 1, 1, 50, 1, &ok);
+    TestOperations sharedOperations; // Shared TestOperations instance for all test benches 
 
     // If the user clicked OK and entered a valid number
     if (ok) {
-        QString message = QString("Test Bench %1 - %2 selected for Cell %3.").arg(testBenchNumber).arg(option).arg(cellNumber);
-        QMessageBox::information(this, QString("Test Bench %1").arg(testBenchNumber), message);
+        TestType testType;
+        if (option == "CCCV Charge Cycle") {
+            testType = TestType::CCCV_ChargeCycle;
+        } else if (option == "CC Discharge Cycle") {
+            testType = TestType::CC_DischargeCycle;
+        } else if (option == "RPT (Rapid Pulse Test)") {
+            testType = TestType::RPT_Test;
+        } else {
+            QMessageBox::warning(this, "Invalid Option", "The selected option is not recognized.");
+            return;
+        }
+
+        // Create the TestBenchOperations object with the shared TestOperations
+        TestBenchOperations* testBench = new TestBenchOperations(testBenchNumber, cellNumber, sharedOperations);
+
+        // Run the test in a separate thread
+        std::thread testThread(&TestBenchOperations::performTest, testBench, testType);
+
+        // Detach the thread so it runs independently
+        testThread.detach();
 
         // Update the display labels with the selected test bench, cell number, and test type
         testBenchLabel->setText(QString("Test Bench: %1").arg(testBenchNumber));

@@ -52,194 +52,50 @@ build cmake_object_order_depends_target_MultiCell-TestBench-Automation: phony ||
 build CMakeFiles/MultiCell-TestBench-Automation.dir/MultiCell-TestBench-Automation_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC$ 11.2.0$ x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\MultiCell-TestBench-Automation_autogen\mocs_compilation.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
+  FLAGS = -fpermissive -g -std=gnu++17
+  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
   OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\MultiCell-TestBench-Automation_autogen
 
 build CMakeFiles/MultiCell-TestBench-Automation.dir/main.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/main.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
+  FLAGS = -fpermissive -g -std=gnu++17
+  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
   OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
 
 build CMakeFiles/MultiCell-TestBench-Automation.dir/MainWindow.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/MainWindow.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\MainWindow.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
+  FLAGS = -fpermissive -g -std=gnu++17
+  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
   OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
 
 build CMakeFiles/MultiCell-TestBench-Automation.dir/can_interface.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_interface.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_interface.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
+  FLAGS = -fpermissive -g -std=gnu++17
+  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
   OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
 
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/AttributeDefinitionImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/AttributeDefinitionImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
+build CMakeFiles/MultiCell-TestBench-Automation.dir/TestBenchOperations.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/TestBenchOperations.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\AttributeDefinitionImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
+  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\TestBenchOperations.cpp.obj.d
+  FLAGS = -fpermissive -g -std=gnu++17
+  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
+  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
 
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/AttributeImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/AttributeImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
+build CMakeFiles/MultiCell-TestBench-Automation.dir/TestOperations.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/TestOperations.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\AttributeImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
+  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\TestOperations.cpp.obj.d
+  FLAGS = -fpermissive -g -std=gnu++17
+  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/BitTimingImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/BitTimingImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\BitTimingImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/CApi.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/CApi.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\CApi.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/DBCAST2Network.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/DBCAST2Network.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\DBCAST2Network.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/DBCX3.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/DBCX3.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\DBCX3.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/EnvironmentVariableImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/EnvironmentVariableImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\EnvironmentVariableImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/KCD2Network.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/KCD2Network.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\KCD2Network.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/MessageImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/MessageImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\MessageImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/Network2C.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/Network2C.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\Network2C.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/Network2DBC.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/Network2DBC.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\Network2DBC.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/Network2Human.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/Network2Human.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\Network2Human.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/NetworkImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/NetworkImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\NetworkImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/NodeImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/NodeImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\NodeImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalGroupImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalGroupImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\SignalGroupImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\SignalImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalMultiplexerValueImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalMultiplexerValueImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\SignalMultiplexerValueImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalTypeImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalTypeImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\SignalTypeImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/ValueEncodingDescriptionImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/ValueEncodingDescriptionImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\ValueEncodingDescriptionImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
-
-build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/ValueTableImpl.cpp.obj: CXX_COMPILER__MultiCell-TestBench-Automation_unscanned_Debug N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/ValueTableImpl.cpp || cmake_object_order_depends_target_MultiCell-TestBench-Automation
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src\ValueTableImpl.cpp.obj.d
-  FLAGS = -g -std=gnu++17
-  INCLUDES = -I"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/MultiCell-TestBench-Automation_autogen/include" -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include -IN:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp -isystem R:/QT/6.7.2/mingw_64/include/QtWidgets -isystem R:/QT/6.7.2/mingw_64/include -isystem R:/QT/6.7.2/mingw_64/include/QtCore -isystem R:/QT/6.7.2/mingw_64/mkspecs/win32-g++ -isystem R:/QT/6.7.2/mingw_64/include/QtGui
-  OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
-  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir\can_dbc_parser\dbcppp\src
+  OBJECT_FILE_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
 
 
 # =============================================================================
@@ -249,8 +105,8 @@ build CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/Va
 #############################################
 # Link the executable bin\MultiCell-TestBench-Automation.exe
 
-build bin/MultiCell-TestBench-Automation.exe: CXX_EXECUTABLE_LINKER__MultiCell-TestBench-Automation_Debug CMakeFiles/MultiCell-TestBench-Automation.dir/MultiCell-TestBench-Automation_autogen/mocs_compilation.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/main.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/MainWindow.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_interface.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/AttributeDefinitionImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/AttributeImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/BitTimingImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/CApi.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/DBCAST2Network.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/DBCX3.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/EnvironmentVariableImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/KCD2Network.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/MessageImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/Network2C.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/Network2DBC.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/Network2Human.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/NetworkImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/NodeImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalGroupImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalMultiplexerValueImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/SignalTypeImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/ValueEncodingDescriptionImpl.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_dbc_parser/dbcppp/src/ValueTableImpl.cpp.obj | R$:/QT/6.7.2/mingw_64/lib/libQt6Widgets.a N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/x64/VC_LIB/PCANBasic.lib R$:/QT/6.7.2/mingw_64/lib/libQt6Gui.a R$:/QT/6.7.2/mingw_64/lib/libQt6Core.a || MultiCell-TestBench-Automation_autogen MultiCell-TestBench-Automation_autogen_timestamp_deps
-  FLAGS = -g
+build bin/MultiCell-TestBench-Automation.exe: CXX_EXECUTABLE_LINKER__MultiCell-TestBench-Automation_Debug CMakeFiles/MultiCell-TestBench-Automation.dir/MultiCell-TestBench-Automation_autogen/mocs_compilation.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/main.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/MainWindow.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/can_interface.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/TestBenchOperations.cpp.obj CMakeFiles/MultiCell-TestBench-Automation.dir/TestOperations.cpp.obj | R$:/QT/6.7.2/mingw_64/lib/libQt6Widgets.a N$:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/x64/VC_LIB/PCANBasic.lib R$:/QT/6.7.2/mingw_64/lib/libQt6Gui.a R$:/QT/6.7.2/mingw_64/lib/libQt6Core.a || MultiCell-TestBench-Automation_autogen MultiCell-TestBench-Automation_autogen_timestamp_deps
+  FLAGS = -fpermissive -g
   LINK_LIBRARIES = R:/QT/6.7.2/mingw_64/lib/libQt6Widgets.a  N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/x64/VC_LIB/PCANBasic.lib  R:/QT/6.7.2/mingw_64/lib/libQt6Gui.a  R:/QT/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MultiCell-TestBench-Automation.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "N:\Programming_VS\Cpp\multicell-testbench-automation\MultiCell-TestBench-Automation\out\build\GCC 11.2.0 x86_64-w64-mingw32" && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/x64/PCANBasic.dll "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/out/build/GCC 11.2.0 x86_64-w64-mingw32/bin""

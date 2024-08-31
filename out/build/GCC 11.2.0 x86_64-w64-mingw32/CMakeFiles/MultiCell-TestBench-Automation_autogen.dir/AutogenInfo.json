@@ -247,87 +247,21 @@
 			null
 		],
 		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/AttributeDefinitionImpl.h",
+			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/TestBenchOperations.hpp",
 			"MU",
-			"V2U7BCAOJC/moc_AttributeDefinitionImpl.cpp",
+			"EWIEGA46WW/moc_TestBenchOperations.cpp",
 			null
 		],
 		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/AttributeImpl.h",
+			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/TestOperations.hpp",
 			"MU",
-			"V2U7BCAOJC/moc_AttributeImpl.cpp",
+			"EWIEGA46WW/moc_TestOperations.cpp",
 			null
 		],
 		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/BitTimingImpl.h",
+			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/TestType.hpp",
 			"MU",
-			"V2U7BCAOJC/moc_BitTimingImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/DBCX3.h",
-			"MU",
-			"V2U7BCAOJC/moc_DBCX3.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/EnvironmentVariableImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_EnvironmentVariableImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/MessageImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_MessageImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/NetworkImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_NetworkImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/NodeImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_NodeImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalGroupImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_SignalGroupImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_SignalImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalMultiplexerValueImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_SignalMultiplexerValueImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalTypeImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_SignalTypeImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/ValueEncodingDescriptionImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_ValueEncodingDescriptionImpl.cpp",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/ValueTableImpl.h",
-			"MU",
-			"V2U7BCAOJC/moc_ValueTableImpl.cpp",
+			"EWIEGA46WW/moc_TestType.cpp",
 			null
 		],
 		[
@@ -363,7 +297,6 @@
 	"MOC_INCLUDES" : 
 	[
 		"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/pcan/Include",
-		"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/include/dbcppp",
 		"R:/QT/6.7.2/mingw_64/include/QtWidgets",
 		"R:/QT/6.7.2/mingw_64/include",
 		"R:/QT/6.7.2/mingw_64/include/QtCore",
@@ -415,102 +348,12 @@
 			null
 		],
 		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/AttributeDefinitionImpl.cpp",
+			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/TestBenchOperations.cpp",
 			"MU",
 			null
 		],
 		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/AttributeImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/BitTimingImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/CApi.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/DBCAST2Network.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/DBCX3.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/EnvironmentVariableImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/KCD2Network.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/MessageImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/Network2C.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/Network2DBC.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/Network2Human.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/NetworkImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/NodeImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalGroupImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalMultiplexerValueImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/SignalTypeImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/ValueEncodingDescriptionImpl.cpp",
-			"MU",
-			null
-		],
-		[
-			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp/src/ValueTableImpl.cpp",
+			"N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/TestOperations.cpp",
 			"MU",
 			null
 		],

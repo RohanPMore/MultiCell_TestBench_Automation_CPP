@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.11)
 
 project(MultiCell-TestBench-Automation)
 
@@ -8,6 +8,8 @@ set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive")
 
 # Find Qt6 package
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
@@ -29,11 +31,11 @@ if (NOT PCANBasic_LIBRARIES)
 endif()
 
 # Add can-dbc-parser library files
-set(CAN_DBC_PARSER_DIR "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp") # Update this path with the correct path to the cloned repo
-include_directories(${CAN_DBC_PARSER_DIR}/include/dbcppp)
+#set(CAN_DBC_PARSER_DIR "N:/Programming_VS/Cpp/multicell-testbench-automation/MultiCell-TestBench-Automation/can_dbc_parser/dbcppp") # Update this path with the correct path to the cloned repo
+#include_directories(${CAN_DBC_PARSER_DIR}/include/dbcppp)
 
 # Source files for can-dbc-parser
-file(GLOB CAN_DBC_PARSER_SOURCES ${CAN_DBC_PARSER_DIR}/src/*.cpp)
+#file(GLOB CAN_DBC_PARSER_SOURCES ${CAN_DBC_PARSER_DIR}/src/*.cpp)
 
 # Add the executable target
 add_executable(MultiCell-TestBench-Automation 
@@ -42,7 +44,12 @@ add_executable(MultiCell-TestBench-Automation
   MainWindow.h
   can_interface.cpp
   can_interface.hpp
-  ${CAN_DBC_PARSER_SOURCES}  # Add the can-dbc-parser source files
+  TestBenchOperations.cpp
+  TestBenchOperations.hpp
+  TestOperations.cpp
+  TestOperations.hpp
+  TestType.hpp
+  #${CAN_DBC_PARSER_SOURCES}  # Add the can-dbc-parser source files
 )
 
 # Link the Qt6 Widgets and PCANBasic library to the target
