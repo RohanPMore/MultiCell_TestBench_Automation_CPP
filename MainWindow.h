@@ -17,6 +17,10 @@ class MainWindow : public QMainWindow {
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void updateStatus(const QString &status);
+    void updateProgress(int value);
+    void updateTemperature(double temperature);
+    void updateVoltage(double voltage);
 
 private:
     QTextEdit *messageDisplay;  // Text area to display messages

@@ -122,6 +122,22 @@ void MainWindow::onStopClicked() {
     msgBox->exec();
 }
 
+void MainWindow::updateStatus(const QString &status) {
+    testTypeLabel->setText(status);
+}
+
+void MainWindow::updateProgress(int value) {
+    progressBar->setValue(value);
+}
+
+void MainWindow::updateTemperature(double temperature) {
+    temperatureDisplay->display(temperature);
+}
+
+void MainWindow::updateVoltage(double voltage) {
+    voltageDisplay->display(voltage);
+}
+
 void MainWindow::setupCentralWidget() {
     // Central Widget and Layout Setup
     QWidget *centralWidget = new QWidget(this);
@@ -142,7 +158,7 @@ void MainWindow::setupRightPanel() {
 
     QVBoxLayout *rightPanelLayout = new QVBoxLayout(rightPanel);
 
-    testBenchLabel = new QLabel("Test Bench: ", rightPanel);
+    //testBenchLabel = new QLabel("Test Bench: ", rightPanel);
     cellNumberLabel = new QLabel("Cell Number: ", rightPanel);
     testTypeLabel = new QLabel("Test Type: ", rightPanel);
 
@@ -224,7 +240,7 @@ void MainWindow::onTestBenchOptionSelected(int testBenchNumber, const QString &o
         }
 
         // Create the TestBenchOperations object with the shared TestOperations
-        TestBenchOperations* testBench = new TestBenchOperations(testBenchNumber, cellNumber, sharedOperations);
+        TestBenchOperations* testBench = new TestBenchOperations(testBenchNumber, cellNumber, sharedOperations, this);
 
         // Run the test in a separate thread
         std::thread testThread(&TestBenchOperations::performTest, testBench, testType);
